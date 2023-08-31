@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<img src="AirbusA320-200.png" onload="loadImage()" width="500" height="132">
+<br>
+<button onclick="myFunction()">Sakay ka?</button>
+<p id="try"></p>
+<form onreset="myFunction1()">
+    Pakilagyan ng pangalan: <input type="text">
+    <input type="reset">
+  </form>
+<script>
+  function loadImage() {
+    alert("Nasan ticket mo?");
+  }
+
+  function myFunction() {
+  document.getElementById("try").innerHTML = "Nasa Japan kana!";
+}
+
+  function myFunction1() {
+  alert("Ay na reset");
+}
+</script>
+</html>
